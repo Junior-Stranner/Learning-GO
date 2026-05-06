@@ -1,0 +1,28 @@
+Teoria/1-Variaveis/variaveis.go
+  h_d74000fe387ebc 1-9,11
+  h_4a7fd0f0a243a0 10
+Teoria/1-Variaveis/2-variaveis.go
+  h_4a7fd0f0a243a0 1-11
+Teoria/3-Operadores/aritmeticos.go
+  h_4a7fd0f0a243a0 1-16
+Teoria/3-Operadores/casting.go
+  h_4a7fd0f0a243a0 1-12
+Teoria/0-Hello/hello.go
+  h_d74000fe387ebc 1-9
+Teoria/3-Operadores/atribuicao.go
+  h_4a7fd0f0a243a0 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "efbb832b1afe73d3789f0eb76a4b82a12b75fe63",
+  "prompts": {},
+  "humans": {
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    },
+    "h_d74000fe387ebc": {
+      "author": "heijunior_meli"
+    }
+  }
+}
