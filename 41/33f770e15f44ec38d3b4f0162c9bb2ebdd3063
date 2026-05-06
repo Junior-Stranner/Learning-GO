@@ -1,0 +1,26 @@
+Teoria/4-Estrutura-conficao/switch-case.go
+  h_4a7fd0f0a243a0 1-18
+Teoria/3-Operadores/logicos.go
+  h_4a7fd0f0a243a0 1-21
+Teoria/5-Estrutura-Repeticao/repeticao.go
+  h_4a7fd0f0a243a0 1-10
+Teoria/3-Operadores/relacionais.go
+  h_4a7fd0f0a243a0 1-22
+Teoria/5-Estrutura-Repeticao/arrays.go
+  h_4a7fd0f0a243a0 1-29
+Teoria/4-Estrutura-conficao/condicoes-avancadas.go
+  h_4a7fd0f0a243a0 1-17
+Teoria/5-Estrutura-Repeticao/matriz.go
+  h_4a7fd0f0a243a0 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "4133f770e15f44ec38d3b4f0162c9bb2ebdd3063",
+  "prompts": {},
+  "humans": {
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  }
+}
