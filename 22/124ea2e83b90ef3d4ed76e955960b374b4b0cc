@@ -1,0 +1,14 @@
+exercises/nivel-2/ex6.go
+  h_d74000fe387ebc 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "22124ea2e83b90ef3d4ed76e955960b374b4b0cc",
+  "prompts": {},
+  "humans": {
+    "h_d74000fe387ebc": {
+      "author": "heijunior_meli"
+    }
+  }
+}
