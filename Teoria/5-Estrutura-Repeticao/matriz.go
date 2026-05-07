@@ -8,8 +8,8 @@ func main() {
 		{4, 5},
 	}
 
-	for i, linha := range matriz {
-		for j := range linha {
+	for i := range matriz {
+		for j := range matriz[i] {
 			matriz[i][j] += 2
 			fmt.Print(matriz[i][j], " ")
 		}
