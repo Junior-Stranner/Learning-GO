@@ -1,0 +1,22 @@
+go-api/model/product.go
+  h_4a7fd0f0a243a0 1-7
+go-api/usecase/product_usecase.go
+  h_4a7fd0f0a243a0 1-15
+go-api/cmd/main.go
+  h_4a7fd0f0a243a0 1-20
+go-api/controller/product_controller.go
+  h_4a7fd0f0a243a0 1-15
+go-api/model/response.go
+  h_4a7fd0f0a243a0 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "dc261240519727a493a15252093d607ca03d9821",
+  "prompts": {},
+  "humans": {
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  }
+}
