@@ -1,0 +1,20 @@
+Teoria/8-Struct.go/struct.go
+  h_4a7fd0f0a243a0 1-15
+Teoria/6-Map/maps.go
+  h_4a7fd0f0a243a0 1-46
+Teoria/5-Estrutura-Repeticao/matriz.go
+  h_4a7fd0f0a243a0 11-12
+Teoria/7-Ponteiro/ponteiro.go
+  h_4a7fd0f0a243a0 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "58051b6d5ed0cc3f0ed7a4a944b46f2ac2b5f6bf",
+  "prompts": {},
+  "humans": {
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  }
+}
