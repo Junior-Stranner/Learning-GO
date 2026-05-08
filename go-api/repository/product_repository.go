@@ -49,32 +49,36 @@ func (pr *ProductRepository) GetProducts() ([]model.Product, error) {
 
 func (pr *ProductRepository) CreateProduct(product model.Product) (int, error) {
 
-	var id int
-	query, err := pr.connection.Prepare("INSERT INTO product" +
-		"(product_name, price)" +
-		" VALUES ($1, $2) RETURNING id")
+	query, err := pr.connection.Prepare("INSERT INTO product (product_name, price) VALUES (?, ?)")
+	if err != nil {
+		fmt.Println(err)
+		return 0, err
+	}
+	defer query.Close()
+
+	result, err := query.Exec(product.Name, product.Price)
 	if err != nil {
 		fmt.Println(err)
 		return 0, err
 	}
 
-	err = query.QueryRow(product.Name, product.Price).Scan(&id)
+	id, err := result.LastInsertId()
 	if err != nil {
 		fmt.Println(err)
 		return 0, err
 	}
 
-	query.Close()
-	return id, nil
+	return int(id), nil
 }
 
 func (pr *ProductRepository) GetProductById(id_product int) (*model.Product, error) {
 
-	query, err := pr.connection.Prepare("SELECT * FROM product WHERE id = $1")
+	query, err := pr.connection.Prepare("SELECT id, product_name, price FROM product WHERE id = ?")
 	if err != nil {
 		fmt.Println(err)
 		return nil, err
 	}
+	defer query.Close()
 
 	var produto model.Product
 
@@ -92,6 +96,5 @@ func (pr *ProductRepository) GetProductById(id_product int) (*model.Product, err
 		return nil, err
 	}
 
-	query.Close()
 	return &produto, nil
 }
