@@ -1,0 +1,19 @@
+go-api/controller/product_controller.go
+  h_3ab36db4a9e347 4,6-9,21-27,29-86
+go-api/repository/product_repository.go
+  h_3ab36db4a9e347 1-97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "e4ab8699875ceb1addb7caa9ff6f5197997c4da5",
+  "prompts": {},
+  "humans": {
+    "h_3ab36db4a9e347": {
+      "author": "Junior-Stranner <juniorstranner@gmail.com>"
+    },
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  }
+}
