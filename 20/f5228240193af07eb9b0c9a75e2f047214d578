@@ -1,0 +1,27 @@
+go-api/go.mod
+  s_533ca6d85c8ea5::t_da37c4bff47a19 6,17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "20f5228240193af07eb9b0c9a75e2f047214d578",
+  "prompts": {},
+  "humans": {
+    "h_3ab36db4a9e347": {
+      "author": "Junior-Stranner <juniorstranner@gmail.com>"
+    },
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  },
+  "sessions": {
+    "s_533ca6d85c8ea5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f1e1f16d-e23f-42bb-833c-1b3b4da44ee2",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Junior-Stranner <juniorstranner@gmail.com>"
+    }
+  }
+}
