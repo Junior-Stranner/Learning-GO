@@ -1,0 +1,27 @@
+masterclass-go/go.mod
+  s_0c6d2774c24bc5::t_df97abb1c0dfcc 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5c42a5e45b63184610a735e79da84b3fd09726ec",
+  "prompts": {},
+  "humans": {
+    "h_3ab36db4a9e347": {
+      "author": "Junior-Stranner <juniorstranner@gmail.com>"
+    },
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  },
+  "sessions": {
+    "s_0c6d2774c24bc5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "92abc065-53aa-4815-ac79-dc401670d77e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Junior-Stranner <juniorstranner@gmail.com>"
+    }
+  }
+}
