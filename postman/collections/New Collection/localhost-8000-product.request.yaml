@@ -1,0 +1,12 @@
+$kind: http-request
+name: localhost:8000/product
+url: localhost:8000/product
+method: POST
+body:
+  type: json
+  content: |2-
+     {                                                                                                                                                     
+          "name": "Produto Teste",                                                                                                                          
+          "price": 99.99                                                                                                                                    
+      }  
+order: 4360523591188479

@@ -1,0 +1,4 @@
+$kind: http-request
+name: localhost:8000/products
+url: localhost:8000/products
+method: GET

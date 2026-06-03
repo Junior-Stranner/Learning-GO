@@ -1,0 +1,5 @@
+$kind: http-request
+name: localhost:8000/ping
+url: localhost:8000/ping
+method: GET
+order: 1183420920102911

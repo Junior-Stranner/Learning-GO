@@ -1,0 +1,13 @@
+$kind: http-request
+name: Register User
+url: localhost:8000/auth/register
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Junior",
+        "email": "junior@email.com",
+        "password": "jujuba123"
+      }
+order: 1779226589345
