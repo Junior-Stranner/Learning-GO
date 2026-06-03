@@ -7,5 +7,5 @@ import (
 func main() {
 	var nome string
 	nome = "Heinz JR"
-	fmt.Printf("%t", nome) // %t + Printf mostra o tipo da váriavel usada
+	fmt.Printf("%T", nome) // %T mostra o tipo da variável
 }
