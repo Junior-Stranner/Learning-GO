@@ -1,0 +1,30 @@
+go.work
+  s_0c6d2774c24bc5::t_fadb3f560c6181 2-6
+  s_0c6d2774c24bc5::t_e3e55fb11bd700 1
+Teoria/1-Variaveis/variaveis/main.go
+  s_0c6d2774c24bc5::t_7820b73013d299 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e39a644216a6b64334c40528f30b8e3e1950cc6a",
+  "prompts": {},
+  "humans": {
+    "h_3ab36db4a9e347": {
+      "author": "Junior-Stranner <juniorstranner@gmail.com>"
+    },
+    "h_4a7fd0f0a243a0": {
+      "author": "heijunior_meli <heinzstr.junior@mercadolivre.com>"
+    }
+  },
+  "sessions": {
+    "s_0c6d2774c24bc5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "92abc065-53aa-4815-ac79-dc401670d77e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Junior-Stranner <juniorstranner@gmail.com>"
+    }
+  }
+}
