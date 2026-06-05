@@ -1,0 +1,19 @@
+# Docker local files
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+
+# Env files
+.env
+
+# Go build files
+*.exe
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
